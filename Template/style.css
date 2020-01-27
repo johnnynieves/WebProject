@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 } */
-
+/* Global changes go at the top | form/page changes go underneath global*/
 body {
   background-color: whitesmoke;
   color: #555555;
@@ -15,6 +15,23 @@ body {
 .container {
   width: 80%;
   margin: 5px 10px;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15 px;
+  border: none;
+}
+
+.button:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Clears any floats above it */
+.clr {
+  clear: both;
 }
 
 .box-1 {
@@ -80,4 +97,92 @@ a:visited {
   padding-bottom: 6px;
   border-bottom: dotted 1px #333;
   list-style-image: url("/Images/check.png");
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+/* brackets target the type of input ie text,display, or other */
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* takes into account the above setting 
+                            and properly divides it into the 33 percent */
+}
+
+/* id= in css uses a #sidebar instead of a .sidebar */
+#main-block {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 30px 15px;
+  position: relative;
+  background-image: url(../Images/check.png);
+  background-position: 10px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+.p-box h3 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+/* Targeting elements */
+.my-list li:first-child {
+  background-color: red;
+}
+
+.my-list li:last-child {
+  background-color: blue;
+}
+
+.my-list li:nth-child(5) {
+  background-color: yellow;
+}
+
+.my-list li:nth-child(even) {
+  background-color: grey;
 }

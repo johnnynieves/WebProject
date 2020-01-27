@@ -25,6 +25,7 @@
 		<!-- Paragraph -->
 		<div class="container"> 
 			<div class="box-1">
+				<h1>Hello</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor <strong>incididunt ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam,
@@ -46,6 +47,8 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
+				<!-- can apply .button styling to a link or anywhere as well  -->
+				<a class="button" href="">Read More</a>
 			</div>
 			<div class="categories">
 				<h2>Categories</h2>
@@ -62,107 +65,168 @@
 					</a></ul>
 
 			</div>
+			
+
+			<!-- Lists -->
+			<ul>
+				<li>List Item 1</li>
+				<li>List Item 2</li>
+				<li>List Item 3</li>
+				<li>List Item 4</li>
+			</ul>
+
+			<ol>
+				<li>List Item 1</li>
+				<li>List Item 2</li>
+				<li>List Item 3</li>
+				<li>List Item 4</li>
+			</ol>
+
+			<!-- Table -->
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Age</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Brad Traversy</td>
+						<td>brad@something.com</td>
+						<td>35</td>
+					</tr>
+					<tr>
+						<td>John Doe</td>
+						<td>jdoe@something.com</td>
+						<td>45</td>
+					</tr>
+					<tr>
+						<td>Sara Williams</td>
+						<td>sara@something.com</td>
+						<td>25</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br>
+			<hr>
+			<br>
+
+			<!-- Forms -->
+			<form class="my-form"action="process.php" method="POST">
+				<div class="form-group">
+					<label>First Name</label>
+					<input type="text" name="firstName" placeholder="Enter first name">
+				</div>
+				<br>
+				<div class="form-group">
+					<label>Last Name</label>
+					<input type="text" name="lastName">
+				</div>
+				<br>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" name="email">
+				</div>
+				<br>
+				<div class="form-group">
+					<label>Message</label>
+					<textarea name="message"></textarea>
+				</div class="form-group">
+				<br>
+				<div>
+					<label>Gender</label>
+					<select name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+				<br>
+					<div>
+						<label>Age:</label>
+						<input type="number" name="age" value="30">
+					</div>
+					<br>
+					<div>
+						<label>Birthday:</label>
+						<input type="date" name="birthday">
+					</div>
+					<br>
+					<input class="button" type="submit" name="submit" value="Submit">
+				<br>
+				<button class="button">Click Me</button>
+				<br>
+			</form>
+		</div>
+		<br>	
+		<div class="block">
+			
+			<h3>Heading</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad numquam, veritatis nemo odio necessitatibus, laboriosam praesentium blanditiis laborum, asperiores consequatur rerum ab recusandae quisquam fuga. Atque doloremque ipsam labore.
+			</p>
+
+		</div>
+		<div class="block">
+			
+			<h3>Heading</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad numquam, veritatis nemo odio necessitatibus, laboriosam praesentium blanditiis laborum, asperiores consequatur rerum ab recusandae quisquam fuga. Atque doloremque ipsam labore.
+			</p>
+
+		</div>
+		<div class="block">
+			
+			<h3>Heading</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad numquam, veritatis nemo odio necessitatibus, laboriosam praesentium blanditiis laborum, asperiores consequatur rerum ab recusandae quisquam fuga. Atque doloremque ipsam labore.
+			</p>
+			
+		</div>
+		<!-- Clear floats above it Clear fix -->
+		<div class="clr"></div> 
+		
+		<div id="main-block">
+			<h3>Heading</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad numquam, veritatis nemo odio necessitatibus, laboriosam praesentium blanditiis laborum, asperiores consequatur rerum ab recusandae quisquam fuga. Atque doloremque ipsam labore.
+			</p>
+		</div>
+		<div id="sidebar">
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad numquam, veritatis nemo odio necessitatibus, laboriosam praesentium blanditiis laborum, asperiores consequatur rerum ab recusandae quisquam fuga. Atque doloremque ipsam labore.
+			</p>
+		</div>
+		
+		<div class="clr"></div> 
+
+		<div class="p-box">
+			<h1>Hello</h1>
+			<h3>Goodbye</h3>
 		</div>
 
-		<!-- Lists -->
-		<ul>
-			<li>List Item 1</li>
-			<li>List Item 2</li>
-			<li>List Item 3</li>
-			<li>List Item 4</li>
+		<ul class="my-list">
+			<li>List Item </li>
+			<li>List Item </li>
+			<li>List Item </li>
+			<li>List Item </li>
+			<li>List Item </li>
+			<li>List Item </li>
+			<li>List Item </li>
+			<li>List Item </li>
+			<li>List Item </li>
 		</ul>
-
-		<ol>
-			<li>List Item 1</li>
-			<li>List Item 2</li>
-			<li>List Item 3</li>
-			<li>List Item 4</li>
-		</ol>
-
-		<!-- Table -->
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Email</th>
-					<th>Age</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Brad Traversy</td>
-					<td>brad@something.com</td>
-					<td>35</td>
-				</tr>
-				<tr>
-					<td>John Doe</td>
-					<td>jdoe@something.com</td>
-					<td>45</td>
-				</tr>
-				<tr>
-					<td>Sara Williams</td>
-					<td>sara@something.com</td>
-					<td>25</td>
-				</tr>
-			</tbody>
-		</table>
-
+		<!-- the below link has two classes attached to it one 
+			is .fix-me and the is button-->
+		<a class="fix-me button" href="">Hello Button</a>
+		
 		<br>
-		<hr>
-		<br>
-
-		<!-- Forms -->
-		<form action="process.php" method="POST">
-			<div>
-				<label>First Name</label>
-				<input type="text" name="firstName" placeholder="Enter first name">
-			</div>
-			<br>
-			<div>
-				<label>Last Name</label>
-				<input type="text" name="lastName">
-			</div>
-			<br>
-			<div>
-				<label>Email</label>
-				<input type="email" name="email">
-			</div>
-			<br>
-			<div>
-				<label>Message</label>
-				<textarea name="message"></textarea>
-			</div>
-			<br>
-			<div>
-				<label>Gender</label>
-				<select name="gender">
-					<option value="male">Male</option>
-					<option value="female">Female</option>
-					<option value="other">Other</option>
-				</select>
-			</div>
-			<br>
-				<div>
-					<label>Age:</label>
-					<input type="number" name="age" value="30">
-				</div>
-				<br>
-				<div>
-					<label>Birthday:</label>
-					<input type="date" name="birthday">
-				</div>
-				<br>
-				<input type="submit" name="submit" value="Submit">
-		</form>
-
-		<!-- Button -->
-		<button>Click Me</button>
-
-		<br>
-
 		<!-- Image -->
-		<a href="images/sample.jpg">
-			<img src="images/sample.jpg" alt="My Sample Image" width="200">
+		<a href="/WebProject/Images/sample.jpg">
+			<img src="/WebProject/Images/sample.jpg" alt="My Sample Image" width="200">
 		</a>
 
 		<!-- Quotations -->
@@ -179,7 +243,7 @@
 
 		<p><cite>HTML crash course</cite> by Brad Traversy</p>
 
-		<div style="margin-top:500px"></div>
+		<div style="margin-top:550px"></div>
 	</body>
 </html>
 </script>
